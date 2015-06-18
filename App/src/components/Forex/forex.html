@@ -1,0 +1,85 @@
+<table>
+    <thead>
+        <tr>
+            <th>FOREX_DEAL_EXT_NR</th>
+            <th>COMPANY_NR</th>
+            <th>BANK_NR</th>
+            <th>CLIENT_NR</th>
+            <th>CLIENT_BANK_ABBR</th>
+            <th>P_S_CODE</th>
+            <th>TRANSACTION_DA</th>
+            <th>DUE_DA</th>
+            <th>CURRENCY_NR</th>
+            <th>CURRENCY_ABBR</th>
+            <th>AMOUNT_FOREIGN</th>
+            <th>EXCHANGE_RATE</th>
+            <th>SALE_AMOUNT_FOREIGN</th>
+            <th>SALE_CURRENCY_ABBR</th>
+            <th>SALE_EXCHANGE_RATE</th>
+            <th>STATUS</th>
+            <th>LINKED_FOREX_DEAL_EXT_NR</th>
+            <th>BOOKING_PERIOD</th>
+            <th>TRADER_USER_NR</th>
+            <th>USER_ABBR</th>
+            <th>TRADE_DEPARTMENT_NR</th>
+            <th>DEPARTMENT_ABBR</th>
+            <th>CREATOR_ID</th>
+            <th>CREATION_DA</th>
+            <th>APPROVE_USER</th>
+            <th>APPROVE_DA</th>
+            <th>USAGE_FOR_ID</th>
+            <th>HOME_CURRENCY_NR</th>
+            <th>HOME_CURRENCY_ABBR</th>
+            <th>COMPANY_ABBR_SHORT</th>
+            <th>TRADE_ID</th>
+            <th>UTI</th>
+            <th>FIXING_DA</th>
+            <th>C_FORMAT_A</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="forexDeal in forex.forexDeals">
+            <td>{{forexDeal.FOREX_DEAL_EXT_NR}}</td>
+            <td>{{forexDeal.COMPANY_NR}}</td>
+            <td>{{forexDeal.BANK_NR}}</td>
+            <td>{{forexDeal.CLIENT_NR}}</td>
+            <td>{{forexDeal.CLIENT_BANK_ABBR}}</td>
+            <td>{{forexDeal.P_S_CODE}}</td>
+            <td>{{forexDeal.TRANSACTION_DA}}</td>
+            <td>{{forexDeal.DUE_DA}}</td>
+            <td>{{forexDeal.CURRENCY_NR}}</td>
+            <td>{{forexDeal.CURRENCY_ABBR}}</td>
+            <td>{{forexDeal.AMOUNT_FOREIGN}}</td>
+            <td>{{forexDeal.EXCHANGE_RATE}}</td>
+            <td>{{forexDeal.SALE_AMOUNT_FOREIGN}}</td>
+            <td>{{forexDeal.SALE_CURRENCY_ABBR}}</td>
+            <td>{{forexDeal.SALE_EXCHANGE_RATE}}</td>
+            <td>{{forexDeal.STATUS}}</td>
+            <td>{{forexDeal.LINKED_FOREX_DEAL_EXT_NR}}</td>
+            <td>{{forexDeal.BOOKING_PERIOD}}</td>
+            <td>{{forexDeal.TRADER_USER_NR}}</td>
+            <td>{{forexDeal.USER_ABBR}}</td>
+            <td>{{forexDeal.TRADE_DEPARTMENT_NR}}</td>
+            <td>{{forexDeal.DEPARTMENT_ABBR}}</td>
+            <td>{{forexDeal.CREATOR_ID}}</td>
+            <td>{{forexDeal.CREATION_DA}}</td>
+            <td>{{forexDeal.APPROVE_USER}}</td>
+            <td>{{forexDeal.APPROVE_DA}}</td>
+            <td>{{forexDeal.USAGE_FOR_ID}}</td>
+            <td>{{forexDeal.HOME_CURRENCY_NR}}</td>
+            <td>{{forexDeal.HOME_CURRENCY_ABBR}}</td>
+            <td>{{forexDeal.COMPANY_ABBR_SHORT}}</td>
+            <td>{{forexDeal.TRADE_ID}}</td>
+            <td>{{forexDeal.UTI}}</td>
+            <td>{{forexDeal.FIXING_DA}}</td>
+            <td>{{forexDeal.C_FORMAT_A}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<div id="debug" style="background-color: lightgray;">
+    <div>&nbsp;</div>
+    <div style="background-color: whitesmoke">Debug</div>
+    <pre>                
+</pre>
+</div>

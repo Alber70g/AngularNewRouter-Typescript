@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>TTS 2.0</title>
+        <!-- bower:css -->
+        <link rel="stylesheet" href="bower_components/angular-ui-select/dist/select.css" />
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+        <!-- endbower -->
+        <!-- inject:css -->
+        <link rel="stylesheet" href="app.css">
+        <!-- endinject -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-ui-select/dist/select.js"></script>
+        <script src="bower_components/angular-resource/angular-resource.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <!-- endbower -->
+        <!-- inject:manual -->
+        <script src="bower_components/angular-new-router/dist/router.es5.js"></script>
+        <!-- endinject -->
+        <!-- inject:js -->
+        <script src="components/Forex/services/ForexDealResource.js"></script>
+        <script src="components/api/models/Person.js"></script>
+        <script src="components/api/api.js"></script>
+        <script src="components/api/services/PersonResource.js"></script>
+        <script src="components/Forex/forex.js"></script>
+        <!-- endinject -->
+    </head>
+    
+    <body ng-app="ttsApp" ng-strict-di ng-controller="AppController">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" ng-link="/">Application name</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a ng-link="api">Api</a>
+                        </li>
+                        <li>
+                            <a ng-link="forex">Forex</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <ng-viewport></ng-viewport>
+        </div>
+    </body>
+
+</html>
