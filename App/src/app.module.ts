@@ -4,6 +4,6 @@ module app {
 	angular
 		.module('app', [
 			'app.core',
-			'app.api'
+			'app.dashboard'
 		]);
 }

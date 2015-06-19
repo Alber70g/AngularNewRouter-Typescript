@@ -1,8 +1,0 @@
-// export class ForexDealResource implements ng.resource.IResourceClass<Models.Forex_Deal> {
-//     constructor($resource: ng.resource.IResourceService) {
-//         return <ng.resource.IResourceClass<Models.Forex_Deal>> $resource('/api/forexdeal/:id', { id: '@id' });
-//     }
-// }
-// angular.module('ttsApp.forex').factory('ForexDealResource', ['$resource', TTS.ForexDealResource]); 
-
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvRm9yZXgvc2VydmljZXMvRm9yZXhEZWFsUmVzb3VyY2UudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0EsNEZBQTRGO0FBQzVGLDZEQUE2RDtBQUM3RCxpSEFBaUg7QUFDakgsUUFBUTtBQUNSLElBQUk7QUFFSixxR0FBcUciLCJmaWxlIjoiY29tcG9uZW50cy9Gb3JleC9zZXJ2aWNlcy9Gb3JleERlYWxSZXNvdXJjZS5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxyXG4vLyBleHBvcnQgY2xhc3MgRm9yZXhEZWFsUmVzb3VyY2UgaW1wbGVtZW50cyBuZy5yZXNvdXJjZS5JUmVzb3VyY2VDbGFzczxNb2RlbHMuRm9yZXhfRGVhbD4ge1xyXG4vLyAgICAgY29uc3RydWN0b3IoJHJlc291cmNlOiBuZy5yZXNvdXJjZS5JUmVzb3VyY2VTZXJ2aWNlKSB7XHJcbi8vICAgICAgICAgcmV0dXJuIDxuZy5yZXNvdXJjZS5JUmVzb3VyY2VDbGFzczxNb2RlbHMuRm9yZXhfRGVhbD4+ICRyZXNvdXJjZSgnL2FwaS9mb3JleGRlYWwvOmlkJywgeyBpZDogJ0BpZCcgfSk7XHJcbi8vICAgICB9XHJcbi8vIH1cclxuXHJcbi8vIGFuZ3VsYXIubW9kdWxlKCd0dHNBcHAuZm9yZXgnKS5mYWN0b3J5KCdGb3JleERlYWxSZXNvdXJjZScsIFsnJHJlc291cmNlJywgVFRTLkZvcmV4RGVhbFJlc291cmNlXSk7Il0sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9

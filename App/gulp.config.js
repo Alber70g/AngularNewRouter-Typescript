@@ -43,10 +43,6 @@
                 file: 'app.min.js'
             }
         },
-        alljs: [
-            './*.js',
-            './src/**/*.js'
-        ],
         allappjs: [
             '!./src/bower_components/**/*.js',
             '!./src/dist/',

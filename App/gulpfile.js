@@ -248,7 +248,7 @@ gulp.task('bower', function () {
 });
 
 gulp.task('clean', function (cb) {
-    del([config.dist.path, config.typescript.js, config.css.file], cb);
+    del([config.dist.path, config.typescript.js, config.css.file].concat(config.allappjs), cb);
 });
 
 function watch() {
