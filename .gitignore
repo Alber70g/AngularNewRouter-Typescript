@@ -197,8 +197,8 @@ npm-debug.log
 coverage/
 dist/
 .vs/
-Web/App/src/**/*.js
-Web/App/src/**/*.css
-Web/App/project.lock.json
+App/src/**/*.js
+App/src/**/*.css
+App/project.lock.json
 Services/.sonar/
-Web/App/frontend.sublime-workspace
+App/frontend.sublime-workspace
